@@ -113,30 +113,30 @@ function HomeContent() {
         <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
           {/* Nuevo encabezado inspirador */}
           <div className="mb-8 sm:mb-12">
-            <div className="flex justify-center items-center space-x-4 sm:space-x-8 mb-6 sm:mb-8">
+            <div className="flex justify-center items-center space-x-6 sm:space-x-10 mb-6 sm:mb-8">
               <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-300">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-2 shadow-lg">
-                  <Search className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-3 shadow-lg">
+                  <Search className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                 </div>
-                <span className="text-lg sm:text-xl font-montserrat font-bold text-senda-primary">Explora</span>
+                <span className="text-2xl sm:text-3xl font-montserrat font-bold text-senda-primary">Explora</span>
               </div>
               
-              <ArrowRight className="w-6 h-6 sm:w-8 sm:h-8 text-senda-secondary animate-pulse" />
+              <ArrowRight className="w-8 h-8 sm:w-10 sm:h-10 text-senda-secondary animate-pulse" />
               
               <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-300">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center mb-2 shadow-lg">
-                  <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center mb-3 shadow-lg">
+                  <Lightbulb className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                 </div>
-                <span className="text-lg sm:text-xl font-montserrat font-bold text-senda-primary">Descubre</span>
+                <span className="text-2xl sm:text-3xl font-montserrat font-bold text-senda-primary">Descubre</span>
               </div>
               
-              <ArrowRight className="w-6 h-6 sm:w-8 sm:h-8 text-senda-secondary animate-pulse" />
+              <ArrowRight className="w-8 h-8 sm:w-10 sm:h-10 text-senda-secondary animate-pulse" />
               
               <div className="flex flex-col items-center group hover:scale-110 transition-transform duration-300">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mb-2 shadow-lg">
-                  <Target className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mb-3 shadow-lg">
+                  <Target className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                 </div>
-                <span className="text-lg sm:text-xl font-montserrat font-bold text-senda-primary">Decide</span>
+                <span className="text-2xl sm:text-3xl font-montserrat font-bold text-senda-primary">Decide</span>
               </div>
             </div>
 
